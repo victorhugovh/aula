@@ -1,14 +1,17 @@
 import React from 'react';
-import CompA from './componentes/CompA';
-import CompB from './componentes/Props';
-import CompC from './componentes/State';
+import CompA from './Componentes/CompA';
+import CompB from './Componentes/Props';
+import CompC from './Componentes/State';
+import Form from './Componentes/Formularios/Form';
+import './Global.css';
 
 function App() {
   return (
   <>
-  <CompA/>
-  <CompA/>
-  <CompA/>
+  <Form />
+  <CompA />
+  <CompA />
+  <CompA />
   <CompB nome = "Victor " sobrenome = "Ribeiro"/>
   <CompB nome = "Thays"/>
   <CompB nome = "Douglas"/>
