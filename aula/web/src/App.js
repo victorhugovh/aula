@@ -3,6 +3,7 @@ import CompA from './Componentes/CompA';
 import CompB from './Componentes/Props';
 import CompC from './Componentes/State';
 import Form from './Componentes/Formularios/Form';
+import Propaganda from './Componentes/Propaganda/propaganda';
 import './Global.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   <Form />
   <CompA />
   <CompA />
+  <Propaganda />
   <CompA />
   <CompB nome = "Victor " sobrenome = "Ribeiro"/>
   <CompB nome = "Thays"/>
